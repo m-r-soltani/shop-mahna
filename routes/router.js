@@ -5,7 +5,7 @@ router.get('/', function(req, res){
     // res.sendFile('../views/index.html');
     // res.sendFile(__dirname + "/" + "style.css");
     res.sendFile('index.html', { root: '/shop/views/'});
-    app.use(express.static(path.join(__dirname, 'assets')));
+    //app.use(express.static(path.join(__dirname, 'assets')));
 });
 
 // router.use('/404',function(req, res, next){
