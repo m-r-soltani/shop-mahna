@@ -219,7 +219,7 @@ iframe {
 
 .label-input100 {
     font-family: Poppins-Regular;
-    font-size: 14px;
+    font-size: 1.1rem;
     color: #333333;
     line-height: 1.5;
     padding-left: 7px;
@@ -338,11 +338,12 @@ iframe {
     z-index: -1;
     width: 300%;
     height: 100%;
-    background: #a64bf4;
-    background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-    background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-    background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-    background: linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background-color: #43A047;
+    /*background: #a64bf4;*/
+    /*background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);*/
+    /*background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);*/
+    /*background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);*/
+    /*background: linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);*/
     top: 0;
     left: -100%;
 
@@ -354,7 +355,7 @@ iframe {
 
 .login100-form-btn {
     font-family: Poppins-Medium;
-    font-size: 16px;
+    font-size: 17px;
     color: #fff;
     line-height: 1.2;
     text-transform: uppercase;

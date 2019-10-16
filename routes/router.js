@@ -1,10 +1,11 @@
 var express = require('express');
 var router = express.Router();
 mealsController = require("../controllers/mealsController");
-router.get('/', function(req, res){
+router.get('/404', function(req, res){
     // res.sendFile('../views/index.html');
     // res.sendFile(__dirname + "/" + "style.css");
-    res.sendFile('index.html', { root: '/shop/views/'});
+    // console.log(process.cwd()+'\\'+'views'+'\\'+'404.html');
+    res.sendFile('404.html', { root: '/shop/views/'});
     //app.use(express.static(path.join(__dirname, 'assets')));
 });
 

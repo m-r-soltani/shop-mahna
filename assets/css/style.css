@@ -4383,7 +4383,8 @@ textarea:focus {
 @media only screen and (max-width: 767px) {
   margin: 6px 0 8px;
   font-size: 18px;
-  line-height: 24px; }
+  line-height: 24px;
+}
 
 @media only screen and (max-width: 767px) {
   .blog-area.pt-50 {
